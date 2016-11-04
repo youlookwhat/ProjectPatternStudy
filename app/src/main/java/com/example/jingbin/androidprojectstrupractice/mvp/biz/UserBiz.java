@@ -4,6 +4,7 @@ import com.example.jingbin.androidprojectstrupractice.mvp.bean.User;
 
 /**
  * Created by jingbin on 2016/11/3.
+ * Model 层: 依然是业务逻辑和实体模型
  */
 
 public class UserBiz implements IUserBiz {

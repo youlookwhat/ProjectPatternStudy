@@ -16,7 +16,9 @@ import com.example.jingbin.androidprojectstrupractice.mvp.view.IUserLoginView;
 
 public class UserLoginPresenter {
 
+    // view
     private IUserLoginView iUserLoginView;
+    // model
     private UserBiz userBiz;
     private Handler mHandler = new Handler();
 
@@ -26,7 +28,9 @@ public class UserLoginPresenter {
     }
 
     public void login() {
+        //view
         iUserLoginView.showLoading();
+        // model
         userBiz.login(iUserLoginView.getUserName(), iUserLoginView.getPassword(), new OnLoginListener() {
             @Override
             public void loginSuccess(User user) {

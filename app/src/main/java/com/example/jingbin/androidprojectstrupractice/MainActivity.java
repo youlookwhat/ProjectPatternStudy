@@ -7,17 +7,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.example.jingbin.androidprojectstrupractice.mvc.LoadDataActivity;
 import com.example.jingbin.androidprojectstrupractice.mvp.UserLoginActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @BindView(R.id.bt_mvp)
     Button btMvp;
     @BindView(R.id.activity_main)
     LinearLayout activityMain;
+    @BindView(R.id.bt_mvc)
+    Button btMvc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +28,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        btMvp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        btMvc.setOnClickListener(this);
+        btMvp.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.bt_mvc:
+                startActivity(new Intent(MainActivity.this, LoadDataActivity.class));
+                break;
+            case R.id.bt_mvp:
                 startActivity(new Intent(MainActivity.this, UserLoginActivity.class));
-            }
-        });
+                break;
+            default:
+                break;
+        }
     }
 }

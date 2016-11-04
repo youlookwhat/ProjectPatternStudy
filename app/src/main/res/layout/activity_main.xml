@@ -11,10 +11,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jingbin.androidprojectstrupractice.MainActivity">
 
+    <Button
+        android:id="@+id/bt_mvc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVC" />
+
 
     <Button
         android:id="@+id/bt_mvp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MVP" />
+        android:text="MVP 以用户登录为例" />
 </LinearLayout>
