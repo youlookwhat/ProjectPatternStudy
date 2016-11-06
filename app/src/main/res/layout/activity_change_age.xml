@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- View + ViewModel-->
+    <data>
+
+        <variable
+            name="user"
+            type="com.example.jingbin.androidprojectstrupractice.mvvm.bean.User" />
+
+        <variable
+            name="buttonname"
+            type="String" />
+
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/tv_mvvm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.name}" />
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@{String.valueOf(user.age)}" />
+
+        <Button
+            android:id="@+id/bt_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{buttonname}" />
+
+    </LinearLayout>
+</layout>

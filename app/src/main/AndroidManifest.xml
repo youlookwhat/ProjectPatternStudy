@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".mvp.UserLoginActivity" />
-        <activity android:name=".mvc.LoadDataActivity"></activity>
+        <activity android:name=".mvc.LoadDataActivity" />
+        <activity android:name=".mvvm.ChangeAgeActivity"/>
     </application>
 
 </manifest>

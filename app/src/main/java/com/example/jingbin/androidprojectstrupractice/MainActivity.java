@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 
 import com.example.jingbin.androidprojectstrupractice.mvc.LoadDataActivity;
 import com.example.jingbin.androidprojectstrupractice.mvp.UserLoginActivity;
+import com.example.jingbin.androidprojectstrupractice.mvvm.ChangeAgeActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     LinearLayout activityMain;
     @BindView(R.id.bt_mvc)
     Button btMvc;
+    @BindView(R.id.bt_mvvm_data_binding)
+    Button btMvvmDataBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,16 +33,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btMvc.setOnClickListener(this);
         btMvp.setOnClickListener(this);
+        btMvvmDataBinding.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.bt_mvc:
+            case R.id.bt_mvc:// MVC 以更新数据为例
                 startActivity(new Intent(MainActivity.this, LoadDataActivity.class));
                 break;
-            case R.id.bt_mvp:
+            case R.id.bt_mvp:// MVP 以用户登录为例
                 startActivity(new Intent(MainActivity.this, UserLoginActivity.class));
+                break;
+            case R.id.bt_mvvm_data_binding:// MVVM + data-binding 以点击一下按钮然后年龄会+2 为例
+                startActivity(new Intent(MainActivity.this, ChangeAgeActivity.class));
                 break;
             default:
                 break;

@@ -22,5 +22,11 @@
         android:id="@+id/bt_mvp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MVP 以用户登录为例" />
+        android:text="MVP" />
+
+    <Button
+        android:id="@+id/bt_mvvm_data_binding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVVM + data-binding" />
 </LinearLayout>
