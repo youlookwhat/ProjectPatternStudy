@@ -1,6 +1,7 @@
-package com.example.jingbin.androidprojectstrupractice.mvvm.model;
+package com.example.jingbin.projectstru.mvvm.model;
 
-import com.example.jingbin.androidprojectstrupractice.mvvm.bean.User;
+
+import com.example.jingbin.projectstru.mvvm.bean.User;
 
 /**
  * Created by jingbin on 2016/11/6.

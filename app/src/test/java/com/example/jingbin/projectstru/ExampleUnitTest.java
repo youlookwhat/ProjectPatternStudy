@@ -1,4 +1,4 @@
-package com.example.jingbin.androidprojectstrupractice;
+package com.example.jingbin.projectstru;
 
 import org.junit.Test;
 

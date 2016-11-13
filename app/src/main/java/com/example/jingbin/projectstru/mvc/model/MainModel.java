@@ -1,4 +1,4 @@
-package com.example.jingbin.androidprojectstrupractice.mvc.model;
+package com.example.jingbin.projectstru.mvc.model;
 
 /**
  * Created by jingbin on 2016/11/4.

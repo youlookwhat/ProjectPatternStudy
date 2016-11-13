@@ -1,8 +1,8 @@
-package com.example.jingbin.androidprojectstrupractice.mvc.model;
+package com.example.jingbin.projectstru.mvc.model;
 
 import android.content.Context;
 
-import com.example.jingbin.androidprojectstrupractice.mvc.bean.Essay;
+import com.example.jingbin.projectstru.mvc.bean.Essay;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
  * 松耦合需要我们通过model来将数据分离，将网络，数据库和数据的获得将其封装.
  * <p>
  * 这也可以复用,这个model可以得到想要的数据
- *
+ * <p>
  * Model: 业务逻辑和实体模型
  */
 

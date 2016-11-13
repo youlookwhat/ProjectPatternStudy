@@ -1,4 +1,4 @@
-package com.example.jingbin.androidprojectstrupractice.mvp;
+package com.example.jingbin.projectstru.mvp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,9 +9,9 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.example.jingbin.androidprojectstrupractice.R;
-import com.example.jingbin.androidprojectstrupractice.mvp.presenter.UserLoginPresenter;
-import com.example.jingbin.androidprojectstrupractice.mvp.view.IUserLoginView;
+import com.example.jingbin.projectstru.R;
+import com.example.jingbin.projectstru.mvp.presenter.UserLoginPresenter;
+import com.example.jingbin.projectstru.mvp.view.IUserLoginView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

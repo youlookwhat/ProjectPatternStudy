@@ -1,4 +1,4 @@
-package com.example.jingbin.androidprojectstrupractice.mvp.bean;
+package com.example.jingbin.projectstru.mvp.bean;
 
 /**
  * Created by jingbin on 2016/11/3.

@@ -6,7 +6,7 @@
 
         <variable
             name="user"
-            type="com.example.jingbin.androidprojectstrupractice.mvvm.bean.User" />
+            type="com.example.jingbin.projectstru.mvvm.bean.User"/>
 
         <variable
             name="buttonname"

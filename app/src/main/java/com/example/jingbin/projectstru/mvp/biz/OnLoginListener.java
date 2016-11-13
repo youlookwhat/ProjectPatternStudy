@@ -1,6 +1,7 @@
-package com.example.jingbin.androidprojectstrupractice.mvp.biz;
+package com.example.jingbin.projectstru.mvp.biz;
 
-import com.example.jingbin.androidprojectstrupractice.mvp.bean.User;
+
+import com.example.jingbin.projectstru.mvp.bean.User;
 
 /**
  * Created by jingbin on 2016/11/3.

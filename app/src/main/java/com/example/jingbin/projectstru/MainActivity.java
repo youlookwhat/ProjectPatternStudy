@@ -1,4 +1,4 @@
-package com.example.jingbin.androidprojectstrupractice;
+package com.example.jingbin.projectstru;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.example.jingbin.androidprojectstrupractice.mvc.LoadDataActivity;
-import com.example.jingbin.androidprojectstrupractice.mvp.UserLoginActivity;
-import com.example.jingbin.androidprojectstrupractice.mvvm.ChangeAgeActivity;
+import com.example.jingbin.projectstru.mvc.LoadDataActivity;
+import com.example.jingbin.projectstru.mvp.UserLoginActivity;
+import com.example.jingbin.projectstru.mvvm.ChangeAgeActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

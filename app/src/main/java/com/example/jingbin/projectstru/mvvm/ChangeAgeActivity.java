@@ -1,14 +1,13 @@
-package com.example.jingbin.androidprojectstrupractice.mvvm;
+package com.example.jingbin.projectstru.mvvm;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.jingbin.androidprojectstrupractice.R;
-import com.example.jingbin.androidprojectstrupractice.databinding.ActivityChangeAgeBinding;
-import com.example.jingbin.androidprojectstrupractice.mvvm.bean.User;
-import com.example.jingbin.androidprojectstrupractice.mvvm.model.UserModel;
+import com.example.jingbin.projectstru.R;
+import com.example.jingbin.projectstru.mvvm.bean.User;
+import com.example.jingbin.projectstru.mvvm.model.UserModel;
 
 /**
  * 简单的MVVM + data-binding案例:
@@ -19,8 +18,8 @@ import com.example.jingbin.androidprojectstrupractice.mvvm.model.UserModel;
 public class ChangeAgeActivity extends AppCompatActivity {
 
     private User myUser;
+    private com.example.jingbin.projectstru.databinding.ActivityChangeAgeBinding viewDataBinding;
     //    private ViewDataBinding viewDataBinding;
-    private ActivityChangeAgeBinding viewDataBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,9 +1,9 @@
-package com.example.jingbin.androidprojectstrupractice.mvvm.bean;
+package com.example.jingbin.projectstru.mvvm.bean;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 
-import com.example.jingbin.androidprojectstrupractice.BR;
+import com.example.jingbin.projectstru.BR;
 
 /**
  * Created by jingbin on 2016/11/6.

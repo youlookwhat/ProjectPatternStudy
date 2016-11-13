@@ -1,4 +1,4 @@
-package com.example.jingbin.androidprojectstrupractice.mvc;
+package com.example.jingbin.projectstru.mvc;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,10 +7,10 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.jingbin.androidprojectstrupractice.R;
-import com.example.jingbin.androidprojectstrupractice.mvc.bean.Essay;
-import com.example.jingbin.androidprojectstrupractice.mvc.model.EssayModel;
-import com.example.jingbin.androidprojectstrupractice.mvc.model.MainModel;
+import com.example.jingbin.projectstru.R;
+import com.example.jingbin.projectstru.mvc.bean.Essay;
+import com.example.jingbin.projectstru.mvc.model.EssayModel;
+import com.example.jingbin.projectstru.mvc.model.MainModel;
 
 import java.util.List;
 

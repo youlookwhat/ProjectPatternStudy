@@ -1,11 +1,11 @@
-package com.example.jingbin.androidprojectstrupractice.mvp.presenter;
+package com.example.jingbin.projectstru.mvp.presenter;
 
 import android.os.Handler;
 
-import com.example.jingbin.androidprojectstrupractice.mvp.bean.User;
-import com.example.jingbin.androidprojectstrupractice.mvp.biz.OnLoginListener;
-import com.example.jingbin.androidprojectstrupractice.mvp.biz.UserBiz;
-import com.example.jingbin.androidprojectstrupractice.mvp.view.IUserLoginView;
+import com.example.jingbin.projectstru.mvp.bean.User;
+import com.example.jingbin.projectstru.mvp.biz.OnLoginListener;
+import com.example.jingbin.projectstru.mvp.biz.UserBiz;
+import com.example.jingbin.projectstru.mvp.view.IUserLoginView;
 
 
 /**
