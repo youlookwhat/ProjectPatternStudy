@@ -29,4 +29,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MVVM + data-binding" />
+
+    <Button
+        android:id="@+id/bt_mvp_data_binding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVP + data-binding" />
 </LinearLayout>

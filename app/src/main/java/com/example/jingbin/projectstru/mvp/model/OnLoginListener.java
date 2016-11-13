@@ -1,4 +1,4 @@
-package com.example.jingbin.projectstru.mvp.biz;
+package com.example.jingbin.projectstru.mvp.model;
 
 
 import com.example.jingbin.projectstru.mvp.bean.User;

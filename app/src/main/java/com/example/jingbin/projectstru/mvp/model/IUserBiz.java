@@ -1,4 +1,4 @@
-package com.example.jingbin.projectstru.mvp.biz;
+package com.example.jingbin.projectstru.mvp.model;
 
 /**
  * Created by jingbin on 2016/11/3.

@@ -18,6 +18,7 @@
         <activity android:name=".mvp.UserLoginActivity" />
         <activity android:name=".mvc.LoadDataActivity" />
         <activity android:name=".mvvm.ChangeAgeActivity" />
+        <activity android:name=".mvpdatabindind.MvpDataBindingActivity"/>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.jingbin.projectstru.R;
+import com.example.jingbin.projectstru.databinding.ActivityChangeAgeBinding;
 import com.example.jingbin.projectstru.mvvm.bean.User;
 import com.example.jingbin.projectstru.mvvm.model.UserModel;
 
@@ -18,7 +19,7 @@ import com.example.jingbin.projectstru.mvvm.model.UserModel;
 public class ChangeAgeActivity extends AppCompatActivity {
 
     private User myUser;
-    private com.example.jingbin.projectstru.databinding.ActivityChangeAgeBinding viewDataBinding;
+    private ActivityChangeAgeBinding viewDataBinding;
     //    private ViewDataBinding viewDataBinding;
 
     @Override

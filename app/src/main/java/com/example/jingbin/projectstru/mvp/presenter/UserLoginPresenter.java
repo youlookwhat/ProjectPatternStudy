@@ -3,8 +3,8 @@ package com.example.jingbin.projectstru.mvp.presenter;
 import android.os.Handler;
 
 import com.example.jingbin.projectstru.mvp.bean.User;
-import com.example.jingbin.projectstru.mvp.biz.OnLoginListener;
-import com.example.jingbin.projectstru.mvp.biz.UserBiz;
+import com.example.jingbin.projectstru.mvp.model.OnLoginListener;
+import com.example.jingbin.projectstru.mvp.model.UserBiz;
 import com.example.jingbin.projectstru.mvp.view.IUserLoginView;
 
 
