@@ -24,7 +24,6 @@ android {
     }
 }
 apply plugin: 'com.neenbedankt.android-apt'//增加这一句
-//apply plugin: 'com.android.databinding'//databinding 插件
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {

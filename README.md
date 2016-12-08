@@ -1,13 +1,19 @@
 # ProjectPatternStudy
-Android 设计架构实践
+> Android project pattern simple practice
+
  - MVC
  - MVP
- - MVVM+data-binding
- - MVP+data-binding
+ - MVVM + data-binding
+ - MVP + data-binding
 
- 根据实际情况选用不同的架构
- 
-##参考文章
+根据实际情况选用不同的架构
+
+<img width="260" height=“374” src="https://github.com/youlookwhat/ProjectPatternStudy/blob/master/art/all.png"></img>
+
+<img width="260" height=“374” src="https://github.com/youlookwhat/ProjectPatternStudy/blob/master/art/mvp.png"></img>
+
+
+## 推荐阅读
 
  - 张鸿洋：[浅谈 MVP in Android](http://blog.csdn.net/lmj623565791/article/details/46596109)
 
