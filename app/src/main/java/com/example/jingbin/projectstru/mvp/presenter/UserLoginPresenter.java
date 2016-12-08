@@ -19,19 +19,19 @@ public class UserLoginPresenter {
     // view
     private IUserLoginView iUserLoginView;
     // model
-    private UserBiz userBiz;
+    private UserBiz mUserBiz;
     private Handler mHandler = new Handler();
 
     public UserLoginPresenter(IUserLoginView iUserLoginView) {
         this.iUserLoginView = iUserLoginView;
-        this.userBiz = new UserBiz();
+        this.mUserBiz = new UserBiz();
     }
 
     public void login() {
         //view
         iUserLoginView.showLoading();
         // model
-        userBiz.login(iUserLoginView.getUserName(), iUserLoginView.getPassword(), new OnLoginListener() {
+        mUserBiz.login(iUserLoginView.getUserName(), iUserLoginView.getPassword(), new OnLoginListener() {
             @Override
             public void loginSuccess(User user) {
 

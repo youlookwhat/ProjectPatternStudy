@@ -6,14 +6,14 @@ package com.example.jingbin.projectstru.mvc.model;
 
 public class MainModel {
 
-    private MainImpl main;
+    private MainImpl mMain;
 
     public interface MainImpl {
         void success(String text);
     }
 
     public void load(MainImpl main) {
-        this.main = main;
+        this.mMain = main;
         // 一系列处理后得到text
         String text = "MVC模式在Android中的应用，获取到的Model中处理的数据";
         main.success(text);

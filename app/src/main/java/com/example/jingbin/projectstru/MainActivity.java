@@ -15,6 +15,10 @@ import com.example.jingbin.projectstru.mvvm.ChangeAgeActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * Thanks to: https://github.com/youlookwhat/ProjectPatternStudy
+ * Contact me: http://www.jianshu.com/users/e43c6e979831/latest_articles
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @BindView(R.id.bt_mvp)
@@ -52,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.bt_mvvm_data_binding:// MVVM + data-binding 以点击一下按钮然后年龄会+2 为例
                 startActivity(new Intent(MainActivity.this, ChangeAgeActivity.class));
                 break;
-            case R.id.bt_mvp_data_binding:// MVP + data-binding
+            case R.id.bt_mvp_data_binding:// MVP + data-binding 以点击一下按钮然后年龄会+2 为例
                 startActivity(new Intent(MainActivity.this, MvpDataBindingActivity.class));
                 break;
             default:

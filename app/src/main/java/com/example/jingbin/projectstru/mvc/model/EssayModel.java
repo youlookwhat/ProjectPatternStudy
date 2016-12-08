@@ -30,10 +30,10 @@ public class EssayModel {
         this.mContext = mContext;
     }
 
-    private OnEssayListener onEssayListener;
+    private OnEssayListener mOnEssayListener;
 
     public void getEssay(int num, OnEssayListener listener) {
-        this.onEssayListener = listener;
+        this.mOnEssayListener = listener;
         ArrayList<Essay> list = new ArrayList<>();
         Essay essay = new Essay();
         if (num != 0) {
@@ -46,6 +46,6 @@ public class EssayModel {
         /**
          * 直接回调出想要的数据,在对应的Activity中不需要知道具体怎么得到的数据,起到了封装的作用
          */
-        onEssayListener.onSuccess(list);
+        mOnEssayListener.onSuccess(list);
     }
 }

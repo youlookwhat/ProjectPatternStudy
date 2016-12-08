@@ -65,13 +65,15 @@
                 android:id="@+id/bt_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="login" />
+                android:text="Login"
+                android:textAllCaps="false" />
 
             <Button
                 android:id="@+id/bt_clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="clear" />
+                android:text="Clear"
+                android:textAllCaps="false" />
         </LinearLayout>
     </LinearLayout>
 

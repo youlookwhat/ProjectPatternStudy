@@ -51,7 +51,7 @@ public class UserLoginActivity extends AppCompatActivity implements IUserLoginVi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_login);
         ButterKnife.bind(this);
-        setTitle("用户登录");
+        setTitle("用户登录（MVP）");
 
         initListener();
 
