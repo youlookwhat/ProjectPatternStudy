@@ -9,7 +9,6 @@
 根据实际情况选用不同的架构
 
 <img width="260" height=“374” src="https://github.com/youlookwhat/ProjectPatternStudy/blob/master/art/all.png"></img>
-
 <img width="260" height=“374” src="https://github.com/youlookwhat/ProjectPatternStudy/blob/master/art/mvp.png"></img>
 
 
