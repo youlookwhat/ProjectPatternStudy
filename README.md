@@ -7,6 +7,7 @@
  - MVP + data-binding
 
 > 依个人理解而写，仅借鉴参考。如有异议请仔细看推荐文章。
+
 根据实际情况选用不同的架构
 
 <img width="260" height=“374” src="https://github.com/youlookwhat/ProjectPatternStudy/blob/master/art/all.png"></img>
