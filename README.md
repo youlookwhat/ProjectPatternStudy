@@ -27,3 +27,5 @@
  - 恰同学上年：[Android中MVVM模式](https://my.oschina.net/u/1175007/blog/613889)
 
  - [MVVM + data-binding 快速入门](http://www.jianshu.com/p/57ce4d7409ef)
+
+ - 美团技术点评团队：[如何构建Android MVVM 应用框架](http://tech.meituan.com/android_mvvm.html)
