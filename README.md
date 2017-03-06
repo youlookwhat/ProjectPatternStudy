@@ -29,3 +29,5 @@
  - 简书：[MVVM + data-binding 快速入门](http://www.jianshu.com/p/57ce4d7409ef)
 
  - 美团技术点评团队：[如何构建Android MVVM 应用框架](http://tech.meituan.com/android_mvvm.html)
+ 
+ - Android面试一天一题：[Android开发的套路MVP & MVVM](http://www.jianshu.com/p/b7fb7f502ea5)
