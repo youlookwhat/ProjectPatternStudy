@@ -18,8 +18,6 @@ public class ChangeAgeViewModel extends AndroidViewModel {
     public ChangeAgeViewModel(@NonNull Application application) {
         super(application);
         age.set(String.valueOf(23));
-
-        desc.setValue("年龄");
     }
 
     void change() {
