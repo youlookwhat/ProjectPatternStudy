@@ -1,4 +1,4 @@
-package com.example.jingbin.projectstru.mvvm.bean;
+package com.example.jingbin.projectstru.mvpdatabindind;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
@@ -9,19 +9,20 @@ import com.example.jingbin.projectstru.BR;
  * Created by jingbin on 2016/11/6.
  */
 
-public class User extends BaseObservable {
+public class UserBean extends BaseObservable {
 
     public String name;
     public int age;
 
-    public User(String name, int age) {
+    public UserBean(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
     public void setName(String name) {
         this.name = name;
-        notifyPropertyChanged(BR.name);//更新对应变量
+        // 更新对应变量
+        notifyPropertyChanged(BR.name);
     }
 
     public void setAge(int age) {
