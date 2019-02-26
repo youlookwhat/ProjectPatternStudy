@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- View + ViewModel-->
     <data>
 
         <variable
             name="user"
-            type="com.example.jingbin.projectstru.mvvm.bean.User"/>
+            type="com.example.jingbin.projectstru.mvpdatabindind.bean.UserBean"/>
 
         <variable
             name="buttonname"
             type="String" />
-
-        <import type="com.example.jingbin.projectstru.mvpdatabindind.Presenter.ChangeAgePresenter"/>
 
     </data>
 
@@ -41,7 +38,6 @@
 
         <Button
             android:id="@+id/bt_age"
-            android:onClick="@{(thiew)->ChangeAgePresenter.itemClick(thiew,user)}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{buttonname}" />

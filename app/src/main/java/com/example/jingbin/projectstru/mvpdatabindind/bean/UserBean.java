@@ -1,4 +1,4 @@
-package com.example.jingbin.projectstru.mvpdatabindind;
+package com.example.jingbin.projectstru.mvpdatabindind.bean;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
@@ -6,9 +6,9 @@ import android.databinding.Bindable;
 import com.example.jingbin.projectstru.BR;
 
 /**
- * Created by jingbin on 2016/11/6.
+ * @author jingbin
+ * @date 2016/11/6
  */
-
 public class UserBean extends BaseObservable {
 
     public String name;

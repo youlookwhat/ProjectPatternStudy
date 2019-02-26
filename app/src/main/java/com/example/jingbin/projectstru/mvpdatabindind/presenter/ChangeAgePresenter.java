@@ -1,34 +1,41 @@
-package com.example.jingbin.projectstru.mvpdatabindind.Presenter;
+package com.example.jingbin.projectstru.mvpdatabindind.presenter;
 
-import android.view.View;
-
-import com.example.jingbin.projectstru.mvvm.bean.User;
-import com.example.jingbin.projectstru.mvvm.model.UserModel;
+import com.example.jingbin.projectstru.mvpdatabindind.view.ChangeAgeView;
+import com.example.jingbin.projectstru.mvpdatabindind.bean.UserBean;
+import com.example.jingbin.projectstru.mvpdatabindind.model.UserModel;
 
 /**
- * Created by jingbin on 2016/11/13.
+ * @author jingbin
+ * @date 2019/02/26
  */
 
 public class ChangeAgePresenter {
 
-    /**
-     * 在Activity使用
-     */
-    public void changeAge(User myUser) {
-        UserModel userModel1 = new UserModel();
-        userModel1.changeEssay(myUser, 2);
+    private ChangeAgeView changeInterface;
+    private UserModel userModel;
+
+    public ChangeAgePresenter(ChangeAgeView changeInterface) {
+        this.changeInterface = changeInterface;
+        // 初始化
+        changeInterface.showContentView(new UserBean("小白", 23));
     }
 
     /**
-     * 布局文件直接使用
+     * 改变年龄
      */
-    public static void itemClick(View view, final User mUser) {
-        view.setOnClickListener(new View.OnClickListener() {
+    public void changeAge(UserBean myUser) {
+        if (userModel == null) {
+            userModel = new UserModel();
+        }
+        userModel.changeAge(myUser, 2, new UserModel.ChangeInterface() {
             @Override
-            public void onClick(View v) {
-                UserModel userModel1 = new UserModel();
-                userModel1.changeEssay(mUser, 2);
+            public void success(UserBean user) {
+                changeInterface.showContentView(user);
             }
         });
+    }
+
+    public void clear() {
+        userModel = null;
     }
 }
